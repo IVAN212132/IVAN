@@ -1,0 +1,116 @@
+PROGRAMIRANJE
+1.Objektno orientisano programiranje (oop)
+    Ima vise paradigma programskih jezika:1.Proceduralno (C)2.Funkcionalno (javascript)3.Objektno orijentisano (java,C#)
+2.Objektno orijentisano programiranje
+    Osnovni princip OOP su objekti. Objekti(1.Atributi(opis) npr *mis*(boja,masa) 2.Radnje)
+3.Istorodni objekti koji imaju iste atribute i iste radnje pripadaju istoj klasi
+4.Da bi mogli da koristimo objekte prvo moramo da definisemo klasu u kojoj pripada taj objekat
+                                            Klasa Mis
+                                               Mis
+                                               Boja   ==> Atributi-Polja
+                                               Tezina
+
+                                          -----------------
+                                               Klik
+                                               Pomeraj    ==> Ranje-Metode
+
+Lekcija 2 POLJA
+
+Poja se definisu unutar tela clase
+
+1. tip podataka
+2. naziv polja
+3. ; - tacka zarez
+
+Promenjivima u oop mozemo dodeliti tip podataka koji predstavlja kalsu definisanu u nasem polju KLASE SU JEDAN OD TIPOVA PODATAKA
+
+3. Metoda main
+
+Metoda main je ulazna tacka u nasu aplikaciju
+
+4.KREIRANJE OBJEKATA
+
+Klase su tipovi podataka . Da bi inicijalizovali objekte potrebno je pozvati specijalnu metodu za kreiranje objekata posmatrane klase.
+Ta specijalna metoda se definise u telu klase iz kojih se kreiraju objekti i naziva se KONSTRUKTOR.
+
+DEFINICIJA KONSTRUKTORA:
+1. PUBLIC
+2. IME KLASE (OSOBA )
+3. UNUTAR OBICNIH ZAGRADA DEFINISU SE PARAMETRI KONSTRUKTORA(ULAZNI PODACI ZA KONSTRUKTORT , KORISTE SE UGLAVNOM ZA INICIJALIZACIJU POLJA OBJEKTA KOJI SE KREIRAJU.PARAMETAR SE DEFINISE ISTO KAO I SVAKA DRUGA PROMENJIVA I AKO POSTOJE VISE PARAMETARA ONI SE ODVAJAJU ZAREZIMA )
+AKO KONSTRUKTOR NEMA NIKAKVIH PARAMETARA PRAZE OBICNE ZAGRADE SU OBAVEZNE._
+
+-KADA SE KREIRAJU OBJEKTI OD NEKE KLASE ONDA KAZEMO DA SU TI OBJEKTI INSTANCE TE KLASE
+ako zelimo da koristimo neki objekat onda koristimo tkzv tacka notaciju tj navodimo taj objekat ispred tackea iza tacke navodimo clana tog objekta
+
+5. METODE KLASE : metoda je clan klase . metode su funkcije koje pripadaju objektu kreiranog iz klase u kojoj je definisana metoda
+
+                            ------------------------------
+ ULAZNI                I METODA               I  IZLAZNI PODATAK
+ ----------------->      I (FUNKCIJA)         I----------------------------->
+ PARAMETRI         I------------------------ I  REZULTAT F-JE
+
+-DEFINICIJA METODE-> metode se definisu unutar tela klase .
+1.  tip metode- tip rezultata koji vraca metode
+2.  ime metode
+3.  ulazni parametri - parametri metode pisu se unutar obicnih ()  . ako ima vise parametara oni se odvajaju zarezom. parametar se definise na isti nacin kao i svaka druga promenljiva .
+     tj. prvo se navodi tip podatka parametra pa ime .
+4.  telo metode - se pise unutar viticastih zagrada . telo metode predstavljaju naredbe . naredbe mogu samo da postoje unutar tela metode i nigde drugde.
+
+* NAREDBE SU DEFINIIJE LOKALNIH PROMENLJIVIH TJ. PROMENLJIVIH KOJE SAMO PRPADAJU TELU METODE *
+
+    *       NAREDBE DODELJIVANJA (X=5)
+    *       ARITMETICKE NAREDBE : (+ , - , * , /)
+    *       LOGICKE OPERACIJE (<,> , == )
+    *       POZIVI DRUGIH METODA ( sistem.out.println("HELLO"));
+    *       NAREDBE USLOVNOG GRANANJA (IF else , SWITCH);
+    *       PETLJE (WHILE , FOR);
+    ***     NAREDBA RETURN IZLAZI IZ METODE PRI CEMU SE VRACA REZULTAT METODE
+*              NAREDBE OPISUJU STA CE METODA DA RADI KADA SE BUDE POZVALA ,  ODVAJAJU SE SA ; , RADI PREGLEDNOSTI SE UVEK PISU U NOVOM REDU .
+        NAREDBA RETURN JE NAREDBA KOJOM SE PREKIDA DALJI TOK IZVRSAVANJA METODE I VRACA SE NA MESTU ODAKLE JE POZVANA METODA .
+           PRI TOME REZULTAT METODE SE VRACA NA ONOM MESTU POZIVA TE METODE .
+           REZULTAT METODE SE PISE U NAREDBI RETURN KAO POSLEDNJI CLAN TE NAREDBE .
+           REZULTAT METODE MOZE DA BUDE I SLOZEN IZRAZ.
+
+                                                                                                * POZIVANJE METODE *
+          POZIVANJE METODE PREDSTAVLJA NAREDBU UNUTAR TELA NEKE DRUGE METODE . UGLAVNOM SE REZULTAT METODE PROSLEDJUJE NEKOJ LOKALNOJ
+          PROMENLJIVOJ PREKO OPERATORA DODELJIVANJA TJ. REZULTAT METODE JE NOVA VREDNOST DODELJENOJ PROMENLJIVOJ.
+          KADA SE POZIVAJU METODE ONE JEDINO MOGU DA SE POZIVAJU IZ NEKOG OBJEKTA KLASE U KOJE JE DEFINISANA TA METODA .
+          METODA SE POZIVA IZ OBJEKTA KORISTECI TACKA NOTACIJU . PRVO SE NAVODI IME OBJEKTA PRE TACKE A IZA TACKE SE NAVODI
+          POZIV METODE .
+          POZIVANJE METODE :
+            1. IME OBJEKTA
+            2. TACKA
+            3.POZIV METODE
+                A) IME
+                B) U OBICNIM ZAGRADAMA PROSLEDJUJU SE KONKRETNE VREDNOSTI ( ARGUMENTI) U ONOM ISTOM REDOSLEDU ISTOG TIPA
+                    KAKO SU DEFINISANI PARAMETRI UNUTAR DEFINICIJA METODE
+
+                **U DEFINICIJI METODE PARAMETRI MOGU DA SE IZOSTAVE . U TOM SLUCAJU PRILIKOM POZIVANJA METODE OBICNE PRAZNE ZAGRADE SU OBAVEZNE
+                        POZIV METODE MOZE DA POSTOJI KAO SAMOSTALNA NAREDBA ALI U TOM SLUCAJU REZULTAT METODE SE NECE NIGDE SACUVATI .
+
+                 7. TIP METODE VOID
+                    METODAMA MOZETE U DEFINICIJI KAO TIP DODELITI TIP VOID. TADA METODA NE VRACA NIKAKAV REZULTAT I ONO SAMO
+                    STO RADI JE DA IZVRSI NAREDBE UNUTAR SVOG TELA . TADA NAREDBA RETURN MOZE DA SE IZOSTAVI ILI
+                    AKO SE U NEKOM MOMENTU METODA PREKIDA ONDA SE NAVODI RETUEN NAREDBA BEZ REZULTATA .
+
+                   KLASE KAO POKAZIVACKI TIP PODATAKA - primitivni tipovi (pocinju sa malim slovom) int,float
+                                                        pokazivacki tipovi (pocinju velikim slovom)String ,Osoba ,System
+                         MEMORIJA(RAM) se deli na dva dela. STACK I HEAP
+
+
+
+                   8. NA STACKU SE CUVAJU PROMENLJIVE PRIMITIVNIH TIPOVA PODATAKA . VREDNOSTI OVAKVIH PROMENLJIVA SE CUVAJU
+                     U MEMORIJI NA NJIHOVIM SIMBOLICKIM ADRESAMA. PROMENLJIVE POKAZIVACKOG TIPA PODATAKA SE CUVAJU
+                     NA HIP MEMORIJI . SIMBOLIOCKE ADRESE PORMENLJIVA POKAZIVACKOG TIPA SE NALAZE NA STACK MEMORIJI
+                     I NJIHOV SADRZAJ JE ADRESA KOJA UPUCUJE NA SVOJ OBJEKAT U HIP MEMORIJI. POKAZIVACKIM
+                     TIPOVIMA PODATAKA MOZE DA SE DODELI SPEC. VREDNOST NULL . TADA ZA TU PROMENLJIVU KAZEMO
+                     DA NE UPUCUJE NI NA JEDAN OBJEKAT.
+
+
+                    9. STATICKI CLANOVI KLASE
+                        SE KORISTE DA BI OPISALI UNIVERZALNE POJAVE KOJE SU VAN DOMASAJA OBJEKTA . ONI US GLOBANLI CLANOVI KLASE
+                        I ONI POSTOJE NEZAVISNO OD OBJEKTA KLASE U KOJOJ SU DEFINISANI . I POSTOJE DOK APLIKACIJA
+                         RADI . DAKLE ONI NE MOGU DA SE POZIVAJU IZ OBJEKTA VEC SE POZIVAJU IZ SAME KLASE
+                         CLANOVI KLASE KOJI SE POZIVAJU IZ OBJEKTA NAZIVAJU SE NE STATICKI
+
+

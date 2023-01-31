@@ -1,0 +1,13 @@
+PROGRAMIRANJE
+1. Objektno orijentisano programiranje (OOP)
+- ima vise paradigma programskih jezika:
+*PROCEDURALNO (C)
+*FUNKCIONALNO (JAVA SKRIPT)
+*OBJEKTNO ORIJENTISANO (JAVA , C# )
+
+2.OOP
+-osnovni princip OOP su objekti
+*IMAJU SVOJE ATRIBUTE ( opis objekata)
+
+
+

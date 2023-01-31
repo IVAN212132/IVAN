@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/IVAN.iml" filepath="$PROJECT_DIR$/.idea/IVAN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vezba1/VEZBANJEE/VEZBANJEE.iml" filepath="$PROJECT_DIR$/vezba1/VEZBANJEE/VEZBANJEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vezbanje2/Vezbanje2.iml" filepath="$PROJECT_DIR$/Vezbanje2/Vezbanje2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vezba1/ponavljanje gradiva/ponavljanje gradiva.iml" filepath="$PROJECT_DIR$/vezba1/ponavljanje gradiva/ponavljanje gradiva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vezba1/utvrdjivanje1/utvrdjivanje1.iml" filepath="$PROJECT_DIR$/vezba1/utvrdjivanje1/utvrdjivanje1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vezba1/vezba1.iml" filepath="$PROJECT_DIR$/vezba1/vezba1.iml" />
+    </modules>
+  </component>
+</project>
